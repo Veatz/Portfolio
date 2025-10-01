@@ -101,7 +101,7 @@ function Projects() {
              PixelPaint: A vision-based wall area estimator for a robotic paint coater is an AI-powered paint estimation and application system designed to modernize traditional wall painting processes in the Philippines. Using a calibrated camera and deep learning–based object detection, it provides accurate wall area measurements and instant paint volume calculations. The system also integrates a robotic coater capable of applying paint up to 2.4 meters high, ensuring consistency, speed, and reduced manual effort. Built to minimize material waste, labor costs, and project delays, PixelPaint demonstrates expertise in computer vision, deep learning, and hardware integration. Click the video below to see PixelPaint in action.          
              <br></br> 
             <a
-              href="/Projects/PixelPaint.pdf"
+              href="https://drive.google.com/file/d/1Qo9h9iAj5gl8W24NFKNa_vmzpeTRV-za/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -120,7 +120,7 @@ function Projects() {
           CBO Registration Portal is a multi-step online registration system for Community-Based Organizations, developed in 2025 using the MERN stack (MongoDB, Express.js, React.js, Node.js) for the Department of Social Welfare and Development’s Enhanced Partnership Against Hunger and Poverty – National Program Management Office (EPAHP-NPMO). The system streamlines end-to-end registration and validation of CBOs and their products through a structured workflow that requires all fields and documents before submission. It enhances data accuracy, reduces manual errors, and improves process efficiency by automating validation and verification. Key features include secure authentication, form validation, document uploads, progress tracking, and database-driven reporting, demonstrating full-stack development, UI/UX design, API integration, and workflow automation skills while supporting government program operations.
           <br></br> 
           <a
-              href="/Projects/Alcoseba_Internship.pdf"
+              href="https://drive.google.com/file/d/1kynZ_bGJlxxo48FlOGHIvlIKlCbgzjqb/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -139,7 +139,7 @@ function Projects() {
           ElecThinker is a mobile application built to support students in selecting electives that match their interests through a quiz-based recommendation system. Beyond course recommendations, it enables profile management and offers a video-sharing space for posting and exploring educational content. Developed with React Native, Node.js, Express.js, and Appwrite, the project showcases skills in mobile development, backend integration, and user-centered design. Click the video below to see ElecThinker in action. 
           <br></br> 
           <a
-              href="/Projects/Electhinker.pdf"
+              href="https://drive.google.com/file/d/1I2SWxMGm5ORrt1mxLjj10ORPmDhHvJne/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
