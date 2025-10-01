@@ -5,7 +5,7 @@
   padding: 4rem 2rem;
   background: 
     linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), /* dark mask */
-    url("black-diamond-pattern.jpg");
+    url("/black-diamond-pattern.jpg");
   background-size: auto; 
   background-repeat: repeat;
   color: #E0E0E0;
