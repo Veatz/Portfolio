@@ -1,0 +1,245 @@
+/* Skills */
+.skillsSection {
+  overflow: hidden;
+  padding: 1rem;
+  text-align: center;
+}
+
+.skillsSection h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #d9c06e;
+}
+
+.skillsSection h3 {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 50%;
+  margin: 0 auto;
+  color: #ddd;
+  text-align: justify;      /* optional: improve readability */
+}
+
+.skillsSection h4 {
+  text-align: start;
+  color: #d9c06e;
+}
+
+.skillsWrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+/* Scrolling Carousel */
+.skillsScroll {
+  display: flex;
+  width: fit-content;
+  animation: scroll 60s linear infinite;
+}
+
+.skillsScroll:hover {
+  animation-play-state: paused; 
+}
+
+/* Reverse Scrolling Carousel */
+.skillsScrollReverse {
+  display: flex;
+  width: fit-content;
+  animation: scrollReverse 30s linear infinite;
+}
+
+.skillsScrollReverse:hover {
+  animation-play-state: paused;
+}
+
+
+/* Each slide contains all skills */
+.slide {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.skill {
+  text-align: center;
+  flex-shrink: 0;
+  flex-grow: 1;
+  padding: 10px;
+  width: 180px; 
+}
+
+.skill img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+  border-radius: 4px;
+}
+
+.skill img:hover {
+  transform: scale(1.1);
+}
+
+.skill p {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #E0E0E0;
+  font-weight: 500;
+}
+
+/* Seamless scrolling keyframes */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Seamless reverse scrolling keyframes */
+@keyframes scrollReverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .slide {
+    gap: 2rem;
+    padding: 0.4rem 0;
+  }
+  
+  .skill {
+    min-width: 80px;
+    max-width: 100px;
+    padding: 4px;
+  }
+  
+  .skill img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .skill p {
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+  }
+  
+  .skillsScroll,
+  .skillsScrollReverse {
+    animation-duration: 25s;
+  }
+}
+
+/* For Video Project*/
+
+.projectDetail {
+  margin: 3rem auto;
+  max-width: 900px;
+  text-align: left;
+  color: #e0e0e0;
+}
+
+.projectDetail h2{
+text-align: center;
+  font-size: 1.8rem;
+  color: #d9c06e;
+}
+
+.projectDetail h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #d9c06e;
+}
+
+.projectDetail p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #E0E0E0;
+}
+
+.videoWrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9; /* keeps shape */
+  margin: 1rem auto;
+}
+
+.videoWrapper iframe,
+.videoWrapper img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.thumbnail {
+  cursor: pointer;
+  transition: ease-in 0.1s;
+}
+/* Thumbnail wrapper to hold play button */
+.thumbnailWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8rem;
+  color: rgb(244,244,244,0.8);
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumbnail:hover {
+  transform: scale(1.02);
+}
+
+.thumbnailWrapper:hover .playButton {
+  color: #E0E0E0;
+  text-shadow: 0 0 15px #E0E0E0, 0 0 15px #E0E0E0;
+}
+
+@media (max-width: 480px) {
+  .slide {
+    gap: 1.5rem;
+    padding: 0.3rem 0;
+  }
+  
+  .skill {
+    min-width: 60px;
+    max-width: 80px;
+    padding: 3px;
+  }
+  
+  .skill img {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .skill p {
+    font-size: 0.75rem;
+    margin-top: 0.15rem;
+  }
+  
+  .skillsScroll,
+  .skillsScrollReverse {
+    animation-duration: 30s;
+  }
+}
