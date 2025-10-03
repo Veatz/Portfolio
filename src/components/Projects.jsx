@@ -35,12 +35,12 @@ function Projects() {
      {/* Skills */}
       <section className={styles.skillsSection}>
       <h2>Skills</h2>
-      <h3>
+      <p>
         I specialize in full-stack development, AI, and hardware systems, with experience in Python, C++, JavaScript, PHP, and SQL alongside frameworks such as React, Node.js, Express, and Laravel. My expertise extends to machine learning, computer vision, and IoT, enabling me to design solutions that integrate both software and hardware. For a full breakdown of my skills and experience, please see my{" "}
         <a href="https://drive.google.com/file/d/18-2HgkhGvav_H8tyX8ietu5MTRyyQl7u/view?usp=sharing" target="_blank" rel="noopener noreferrer">
           Resume →
         </a>.
-      </h3>
+      </p>
       <h4>Technical Skills</h4>
         <div className={styles.skillsWrapper}>
           <div className={styles.skillsScroll} ref={scrollRef1}>

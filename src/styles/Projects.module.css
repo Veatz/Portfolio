@@ -12,13 +12,13 @@
   color: #d9c06e;
 }
 
-.skillsSection h3 {
+.skillsSection p {
   font-size: 1rem;
   line-height: 1.6;
-  max-width: 50%;
   margin: 0 auto;
   color: #ddd;
-  text-align: justify;      /* optional: improve readability */
+  text-align: justify;
+  max-width: 900px;
 }
 
 .skillsSection h4 {

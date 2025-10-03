@@ -20,7 +20,6 @@ function ProjectDetail({ title, description, videoId, thumbnail }) {
           <iframe
             src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
             title={title}
-            frameBorder="0"
             allow="autoplay; encrypted-media"
             allowFullScreen
           ></iframe>
