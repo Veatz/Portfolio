@@ -64,7 +64,10 @@ function Contact() {
             <FaLinkedin /> LinkedIn
           </a>
 
-          <a href="/Alcoseba_MichaelVincent_Resume.pdf" download className={styles.resumeBtn}>
+          <a 
+            href="https://drive.google.com/uc?export=download&id=18-2HgkhGvav_H8tyX8ietu5MTRyyQl7u" 
+            className={styles.resumeBtn}
+          >
             <FaFileDownload /> Download Resume
           </a>
         </div>
