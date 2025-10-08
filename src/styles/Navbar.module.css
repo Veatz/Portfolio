@@ -38,6 +38,11 @@
   transform: translateY(-5px);
 }
 
+.link:focus {
+  color: #4dd0e1;
+  text-decoration: underline;
+}
+
 /* responsive font size */
 @media (max-width: 768px) {
   .link {
