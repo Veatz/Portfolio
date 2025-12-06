@@ -37,7 +37,7 @@ function Projects() {
       <h2>Skills</h2>
       <p>
         I specialize in full-stack development, AI, and hardware systems, with experience in Python, C++, JavaScript, PHP, and SQL alongside frameworks such as React, Node.js, Express, and Laravel. My expertise extends to machine learning, computer vision, and IoT, enabling me to design solutions that integrate both software and hardware. For a full breakdown of my skills and experience, please see my{" "}
-        <a href="https://drive.google.com/file/d/18-2HgkhGvav_H8tyX8ietu5MTRyyQl7u/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1k-2siWKvQ2avStaSmb2sspmm4qrsdwOK/view?usp=sharing" target="_blank" rel="noopener noreferrer">
           Resume →
         </a>.
       </p>
