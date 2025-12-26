@@ -37,7 +37,7 @@ function Projects() {
       <h2>Skills</h2>
       <p>
         I specialize in full-stack development, AI, and hardware systems, with experience in Python, C++, JavaScript, PHP, and SQL alongside frameworks such as React, Node.js, Express, and Laravel. My expertise extends to machine learning, computer vision, and IoT, enabling me to design solutions that integrate both software and hardware. For a full breakdown of my skills and experience, please see my{" "}
-        <a href="https://drive.google.com/file/d/1k-2siWKvQ2avStaSmb2sspmm4qrsdwOK/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1XKQ3Ff7XoR0e4EszMvPMZ9iQzvPFeNmp/view?usp=sharing" target="_blank" rel="noopener noreferrer">
           Resume →
         </a>.
       </p>
@@ -45,6 +45,7 @@ function Projects() {
         <div className={styles.skillsWrapper}>
           <div className={styles.skillsScroll} ref={scrollRef1}>
             <div className={styles.slide}>
+              <div className={styles.skill}><img src="/icons/angular.png" alt="Angular" /><p>Angular</p></div>
               <div className={styles.skill}><img src="/icons/python.png" alt="Python" /><p>Python</p></div>
               <div className={styles.skill}><img src="/icons/cpp.png" alt="C++" /><p>C++</p></div>
               <div className={styles.skill}><img src="/icons/javascript.png" alt="JS" /><p>JavaScipt</p></div>
@@ -52,6 +53,7 @@ function Projects() {
               <div className={styles.skill}><img src="/icons/sql.png" alt="SQL" /><p>SQL</p></div>
               <div className={styles.skill}><img src="/icons/html.png" alt="HTML" /><p>HTML</p></div>
               <div className={styles.skill}><img src="/icons/css.png" alt="CSS" /><p>CSS</p></div>
+              <div className={styles.skill}><img src="/icons/wordpress.png" alt="Wordpress" /><p>Wordpress</p></div>
               <div className={styles.skill}><img src="/icons/react.png" alt="React" /><p>React</p></div>
               <div className={styles.skill}><img src="/icons/reactnative.png" alt="React Native" /><p>React Native</p></div>
               <div className={styles.skill}><img src="/icons/laravel.png" alt="Laravel" /><p>Laravel</p></div>
@@ -79,6 +81,7 @@ function Projects() {
               <div className={styles.skill}><img src="/icons/git.png" alt="GIT" /><p>GIT</p></div>
               <div className={styles.skill}><img src="/icons/github.png" alt="GitHub" /><p>GitHub</p></div>
               <div className={styles.skill}><img src="/icons/chatgpt.png" alt="ChatGPT" /><p>ChatGPT</p></div>
+              <div className={styles.skill}><img src="/icons/claude.png" alt="Claude AI" /><p>Claude AI</p></div>
               <div className={styles.skill}><img src="/icons/microsoft365.png" alt="Microsoft 365" /><p>Microsoft 365</p></div>
               <div className={styles.skill}><img src="/icons/googleD.png" alt="Google Docs"/><p>Google Docs</p></div>
               <div className={styles.skill}><img src="/icons/googleE.png" alt="Google Sheets"/><p>Google Sheets</p></div>
@@ -86,7 +89,7 @@ function Projects() {
               <div className={styles.skill}><img src="/icons/googleS.png" alt="Google Slides"/><p>Google Slides</p></div>
               <div className={styles.skill}><img src="/icons/appscript.png" alt="Google Appscript"/><p>Google Appscript</p></div>
               <div className={styles.skill}><img src="/icons/figma.png" alt="Figma"/><p>Figma</p></div>
-              <div className={styles.skill}><img src="/icons/canva.png" alt="Canva"/><p>Canva</p></div> 
+              <div className={styles.skill}><img src="/icons/canva.png" alt="Canva"/><p>Canva</p></div>
             </div>
           </div>
         </div>

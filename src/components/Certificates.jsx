@@ -8,7 +8,17 @@ function Certificates() {
           Here are some of my most significant certifications and badges that 
           highlight my expertise and continuous learning.
         </h4>
-
+       <div className={styles.certContainer}>
+        <div className={styles.cert}>
+          <div className={styles.imageWrapper}>
+            <h2>WordPress Crash Course: Build any Website in Minutes!</h2>
+            <img 
+              src="/certs/WordpressCert.jpg" 
+              alt="WordPress Crash Course: Build any Website in Minutes!" 
+            />
+          </div>
+        </div>
+      </div>
        <div className={styles.certContainer}>
         <div className={styles.cert}>
           <div className={styles.imageWrapper}>

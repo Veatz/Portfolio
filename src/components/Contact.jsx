@@ -65,7 +65,7 @@ function Contact() {
           </a>
 
           <a 
-            href="https://drive.google.com/uc?export=download&id=1k-2siWKvQ2avStaSmb2sspmm4qrsdwOK" 
+            href="https://drive.google.com/uc?export=download&id=1XKQ3Ff7XoR0e4EszMvPMZ9iQzvPFeNmp" 
             className={styles.resumeBtn}
           >
             <FaFileDownload /> Download Resume
