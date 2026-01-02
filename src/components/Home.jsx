@@ -14,7 +14,7 @@ function Home() {
           />
         </div>
         <div className={styles.intro}>
-          <h1>Hello, I’m <span className={styles.highlight}>Michael Vincent  R. Alcoseba</span></h1>
+          <h1>Hello, I am <span className={styles.highlight}>Michael Vincent  R. Alcoseba</span></h1>
           <p>
             A Computer Engineer who turn ideas into functional applications using programming languages such as Python, C++, and JavaScript. 
             Proficient in full-stack development, database management, and modern frameworks, 

@@ -31,11 +31,12 @@
   text-decoration: none;
   transition: color 0.3s ease;
   white-space: nowrap;
+  display: flex;
 }
 
 .link:hover {
   color: #4dd0e1;
-  transform: translateY(-5px);
+  transform: translateY(-2px);
 }
 
 .link:focus {
@@ -43,9 +44,23 @@
   text-decoration: underline;
 }
 
+.icon {
+display: none;
+}
+
 /* responsive font size */
 @media (max-width: 768px) {
-  .link {
-    font-size: 16px;
+  .text {
+    display: none;
+  }
+
+  .list {
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .icon {
+    display: block;
+    font-size: 22px;
   }
 }

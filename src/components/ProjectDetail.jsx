@@ -5,7 +5,6 @@ function ProjectDetail({ title, description, videoId, thumbnail }) {
   const [play, setPlay] = useState(false);
   const videoRef = useRef(null);
 
-  // Reset to thumbnail when video ends
   const handleEnded = () => {
     setPlay(false);
   };
