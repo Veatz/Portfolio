@@ -31,10 +31,9 @@ function Projects() {
 
   return (
     <div className={"container"}>
-     
+     <h1>Skills</h1>
      {/* Skills */}
       <section className={styles.skillsSection}>
-      <h2>Skills</h2>
       <p>
         I specialize in full-stack development, AI, and hardware systems, with experience in Python, C++, JavaScript, PHP, and SQL alongside frameworks such as React, Node.js, Express, and Laravel. My expertise extends to machine learning, computer vision, and IoT, enabling me to design solutions that integrate both software and hardware. For a full breakdown of my skills and experience, please see my{" "}
         <a href="https://drive.google.com/file/d/1XKQ3Ff7XoR0e4EszMvPMZ9iQzvPFeNmp/view?usp=sharing" target="_blank" rel="noopener noreferrer">
